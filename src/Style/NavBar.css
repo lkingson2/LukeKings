@@ -1,0 +1,51 @@
+.tab {
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: rgba( 255, 255, 255, .7 );
+  font-weight: 600;
+}
+
+.tab:hover {
+    color: #fff;
+}
+
+.tab:focus {
+    color: #fff;
+}
+
+h1.Name {
+  left:4rem;
+  position: relative;
+  display: inline-block;
+  color: rgba( 255, 255, 255, .7 );
+  font-weight: 600;
+}
+
+nav {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.NavBar {
+  display: table-cell;
+  vertical-align: middle;
+  right: 4rem;
+  text-align: right;
+  position: relative;
+}
+
+div.Name {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.outline {
+  outline: 1px solid;
+}
