@@ -38,17 +38,25 @@ const NavBar = () => {
   //{backgroundImage: `url(http://mrmrs.github.io/photos/u/011.jpg)`}
   //style={{backgroundImage: `url(http://mrmrs.github.io/photos/u/011.jpg)`}}
   return (
-      <nav>
-        <div className="Name">
-          <h1 className="Name"> LUKE KINGSLEY </h1>
+    <div className="fixed--top">
+      <div className="header flex">
+        <div className="flex--space">
+          <div className="header--logo flex justify--start">
+            <button type="button">
+              <h1>
+                LUKE KINGSLEY
+              </h1>
+            </button>
+          </div>
         </div>
-        <div className="NavBar">
+        <div>
           <Link className="tab" to="/" >Home</Link>
           <Link className="tab" to="/about" >About</Link>
           <Link className="tab" to="/projects" >Projects</Link>
           <Link className="tab outline" to="/contact" >Contact</Link>
         </div>
-      </nav>
+      </div>
+    </div>
   )
 }
 

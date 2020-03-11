@@ -1,21 +1,43 @@
 import React from 'react'
-import '../Style/NavBar.css'
+import moment from 'moment'
+import '../Style/Footer.css'
+import '../Style/Flex.css'
 
 const Footer = () => {
-  // const Background = "./Background.jpg"
-  //{backgroundImage: `url(http://mrmrs.github.io/photos/u/011.jpg)`}
-  //style={{backgroundImage: `url(http://mrmrs.github.io/photos/u/011.jpg)`}}
+
+  //Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
   return (
-      <nav>
-        <div className="Name">
-          <h1 className="Name"> LUKE KINGSLEY </h1>
+    <div className="fixed--bottom">
+      <div className="footer flex">
+        <div className="flex flex--space">
+          <div className="footer footer--disclaimer justify--start">
+            <p>Luke Kingsley, {moment().year()}.</p>
+          </div>
         </div>
-        <div className="Footer">
-          <a className="" href="/" />
-          <a className="" href="/" />
-        </div>
-      </nav>
-  )
+        <a href={require('../Images/LukeKingsleyResume.pdf')} download="luke_kingsley_resume.pdf" target="_blank" rel="noopener noreferrer">
+          <button type="button" className="flex flex--item">
+            <div className="footer--action">
+              <img src={require('../Images/resume.png')} alt="Resume" id="resume"/>
+            </div>
+          </button>
+        </a>
+        <a href="https://github.com/lkingson2" target="_blank" rel="noopener noreferrer">
+          <button type="button" className="flex flex--item">
+            <div className="footer--action">
+              <img src={require('../Images/github.svg')} alt="Github" />
+            </div>
+          </button>
+        </a>
+        <a href="mailto:lkingson2@gmail.com" rel="noopener noreferrer">
+          <button type="button" className="flex flex--item">
+            <div className="footer--action">
+              <img src={require('../Images/email.svg')} alt="Contact Me" />
+            </div>
+          </button>
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;
