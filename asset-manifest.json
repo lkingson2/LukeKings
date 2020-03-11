@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/LukeKings/static/css/main.5f70b919.chunk.css",
+    "main.js": "/LukeKings/static/js/main.95375dcd.chunk.js",
+    "main.js.map": "/LukeKings/static/js/main.95375dcd.chunk.js.map",
+    "runtime-main.js": "/LukeKings/static/js/runtime-main.5071be03.js",
+    "runtime-main.js.map": "/LukeKings/static/js/runtime-main.5071be03.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/LukeKings/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.4772caf1.chunk.js": "/LukeKings/static/js/2.4772caf1.chunk.js",
+    "static/js/2.4772caf1.chunk.js.map": "/LukeKings/static/js/2.4772caf1.chunk.js.map",
+    "index.html": "/LukeKings/index.html",
+    "precache-manifest.456d3c1470d21850d1bffdd9a800728b.js": "/LukeKings/precache-manifest.456d3c1470d21850d1bffdd9a800728b.js",
+    "service-worker.js": "/LukeKings/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/LukeKings/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.5f70b919.chunk.css.map": "/LukeKings/static/css/main.5f70b919.chunk.css.map",
+    "static/js/2.4772caf1.chunk.js.LICENSE.txt": "/LukeKings/static/js/2.4772caf1.chunk.js.LICENSE.txt",
+    "static/media/LukeKingsleyResume.pdf": "/LukeKings/static/media/LukeKingsleyResume.0e6eb000.pdf",
+    "static/media/About.css": "/LukeKings/static/media/WebProfile.1c56e1ea.jpeg",
+    "static/media/email.svg": "/LukeKings/static/media/email.ce8a1606.svg",
+    "static/media/github.svg": "/LukeKings/static/media/github.d5603992.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5071be03.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.4772caf1.chunk.js",
+    "static/css/main.5f70b919.chunk.css",
+    "static/js/main.95375dcd.chunk.js"
+  ]
+}
