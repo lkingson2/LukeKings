@@ -1,0 +1,43 @@
+img {
+  border-radius: 25%;
+}
+
+.about--container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+
+.about--text, .about--image {
+  flex: 1 0;
+}
+
+.about--image {
+  padding-left: 28px;
+}
+
+.about--text {
+  padding: 42px 28px;
+  text-align: left;
+}
+
+p {
+  font-family: Montserrat,sans-serif;
+  color: #222;
+}
+
+.about--photo {
+  width: 100%;
+  height: calc(100vh - 160px);
+  background-image: url('../Images/WebProfile.jpeg');
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.copy {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.75;
+    margin: 0;
+  }
